@@ -1,4 +1,4 @@
-[byte[]]$Rand = for($var=1;$var -le 129){
+[byte[]]$Rand = for($var=1;$var -le 25){
     Get-Random -min 1 -max 255
     $var++
 }
